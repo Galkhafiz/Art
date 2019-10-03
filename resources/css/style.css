@@ -1,0 +1,208 @@
+ @import url('https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet');
+ 
+/* basic setup */
+/* * {font-family: 'Prata', serif;}  */
+ * {font-family: 'Montserrat', sans-serif;}
+
+body {
+    margin: 0; 
+    padding: 0;
+    background:#f4f4f4;
+}
+  
+.row {
+    display: flex;
+}
+
+  
+ /*navbar style*/
+.navbar{ background: rgb(199, 46, 8);}
+
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
+
+.nav-link{ margin-right: 1em !important;}
+
+.nav-link:hover{ color: #121200; }
+
+.navbar-collapse{ justify-content: flex-end;}
+
+.navbar-toggler{  background:#fff !important;}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.bg-dark{
+    background-color:#404c58!important
+    }
+.bg-primary{
+    background-color:#c6cdd3!important
+    }
+
+/*header style*/
+    
+.header--main {
+        /* background: linear-gradient(rgba(100,181,246 ,1), rgba(0,0,0,0.8)), 
+        url('../images/IMG_0029\ copy.jpg') 0% 0%/cover; */
+        background: url('../images/IMG_0029\ copy.jpg') 0% 0%/cover;
+        
+    }
+
+/* header {
+        background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url(img/hero-min.jpg);
+        background-size: cover; 
+        background-position: center;
+        height: 100vh;
+        background-attachment: fixed; 
+    } */
+
+.fill-viewport {  min-height: 100vh }
+    
+    /* .header {  
+    position: relative;
+    background-image: url('../image/39660.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;  
+ } */
+
+/* .header img {
+        min-height: 80%;
+        overflow: hidden;
+        height: 100vh;
+
+} */
+
+/* .overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(224, 216, 216, 0.8);
+} */
+
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+
+.description h1{
+ color: #fff; 
+ font-size: 300%;
+}
+.description p{
+ color:#fff;
+ font-size: 40px;
+ width: 50%;
+ line-height: 1.5;
+}
+.description button{
+ border:1px  solid rgb(221, 77, 41);
+ background:rgb(221, 77, 41);
+ color:#fff;
+} */
+
+/* about me */
+.about{
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+    /* top: 400px; 
+    display: flex; */
+   }
+
+.about--main  span{
+       padding-top: 10px; 
+       font-size: 70%;
+}
+
+.about h1{
+    color: rgb(199, 46, 8);
+    margin: 2em;
+   }
+
+.about img {
+      height: 100%;
+      width: 100%;
+      /* border-radius: 50%; */
+      /* padding-bottom: 20px;
+      display: block;  */
+}
+
+.about .me--main{
+    display: block;
+    color: #888;
+    /* position: absolute; */
+    /* left: 115px; */
+}
+
+.about .desc{
+    padding: 2em;
+    /* border-left:4px solid #10828C; */
+}
+
+.about .desc h3{
+    color: rgb(221, 77, 41);
+}
+
+.about .desc p{
+    line-height:2;
+    padding-top: 10px;
+    color:#888;
+}
+
+/* Portfolio */
+.portfolio {
+    margin: 4em 0;
+    position: relative; 
+   }
+   .portfolio h1{
+    margin: 2em; 
+    color: rgb(199, 46, 8);
+
+   }
+   .portfolio img{
+     height: 20rem;
+     width: 70%;
+     margin: 1em;
+     
+   }
+
+/* contact form */ 
+   .contact-form{
+    margin: 6em 0;
+    position: relative;  
+   }
+   
+.contact-form h1{
+    padding:2em 1px;
+    color: rgb(199, 46, 8); 
+   }
+
+.contact-form .right{
+    max-width: 600px;
+}
+   
+.contact-form .right .btn-secondary{
+    background: rgb(221, 77, 41);;
+    color: #fff;
+    border:0;
+}
+
+.contact-form .right .form-control::placeholder{
+    color: #888;
+    font-size: 16px;
+}
+   
+
+.footer--main {
+       background-color: rgb(126, 121, 121); 
+       /* position: fixed; */
+       /* min-height: 5px;  
+       min-width: 100%; */
+}
+
+i {font-size: 150%;}
